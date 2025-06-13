@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .cinema-gradient {
+    @apply bg-gradient-to-b from-gray-800 via-gray-900 to-black;
+  }
+}
